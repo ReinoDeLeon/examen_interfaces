@@ -13,21 +13,21 @@ function checkTestResults(personality) {
             var section = document.createElement("section")
             document.body.appendChild(section)
             section.setAttribute("id", "personalidad")
-            var div1 = document.createElement("div")
-            var div2 = document.createElement("div")
-            section.appendChild(div1)
-            section.appendChild(div2)
+            var divName = document.createElement("div")
+            var divDesc = document.createElement("div")
+            section.appendChild(divName)
+            section.appendChild(divDesc)
             var name = document.createElement("h3")
             var desc = document.createElement("p")
-            div1.appendChild(name)
-            div2.appendChild(desc)
-            var button = document.createElement("button")
-            button.setAttribute("id", "restartTest")
-            button.innerHTML = "reiniciar test"
-            section.appendChild(button)
+            divName.appendChild(name)
+            divDesc.appendChild(desc)
+            var restartButton = document.createElement("restartButton")
+            restartButton.setAttribute("id", "restartTest")
+            restartButton.innerHTML = "reiniciar test"
+            section.appendChild(restartButton)
             console.log(personality)
 
-            button.addEventListener("click", function(event) {
+            restartButton.addEventListener("click", function(event) {
                 personalityAnswers.clear()
                 resultadoPersonalidad = ""
                 window.location.reload()
