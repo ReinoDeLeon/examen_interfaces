@@ -37,6 +37,7 @@ body {
   background-color: #b89469;
   border: 0px solid beige;
   font-size: medium;
+  cursor: pointer;
 }
 
 #buttons div {
@@ -69,5 +70,6 @@ body {
   background-color: #b89469;
   border: 0px solid beige;
   font-size: medium;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
