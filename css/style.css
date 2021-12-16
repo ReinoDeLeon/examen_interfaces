@@ -1,0 +1,73 @@
+body {
+  border: 1px solid black;
+  margin: 35px;
+  margin-bottom: 0%;
+  padding: 12%;
+  text-align: center;
+  background-color: beige;
+}
+
+#test .test {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#test .test div {
+  width: 100%;
+}
+
+#buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#buttons button {
+  width: 100%;
+  margin: 10px 2.5%;
+  border-radius: 20px;
+  padding: 15px;
+  background-color: #b89469;
+  border: 0px solid beige;
+  font-size: medium;
+}
+
+#buttons div {
+  width: 100%;
+}
+
+#buttons div button {
+  width: 44%;
+}
+
+#personalidad {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#personalidad div {
+  width: 100%;
+}
+
+#personalidad #restartTest {
+  margin: 10px 0;
+  border-radius: 20px;
+  padding: 15px;
+  background-color: #b89469;
+  border: 0px solid beige;
+  font-size: medium;
+}
+/*# sourceMappingURL=style.css.map */

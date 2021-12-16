@@ -1,0 +1,26 @@
+{
+    "preguntas": [
+
+        {
+            "id": 1,
+            "pregunta": "¿Cómo te sientes cuando estás rodeado de gente?",
+            "respuestas": ["E: Soy una persona sociable y me gusta expresar mis emociones", "I: Me cuesta relacionarme y no suelo expresar mis sentimientos"]
+        },
+        {
+            "id": 2,
+            "pregunta": "En la toma de decisiones, ¿te dejas llevar por tus sentidos o por tu intuición?",
+            "respuestas": ["S: Siempre me dejo llevar por lo que percibo por mis sentidos", "N: Suelo fiarme más de mi intuición a la hora de tomar decisiones"]
+        },
+        {
+            "id": 3,
+            "pregunta": "¿Sueles utilizar la lógica para tomar decisiones?",
+            "respuestas": ["T: Acostumbro a tomar mis decisiones de acuerdo a la lógica", "F: Normalmente tomo decisiones sin mucha reflexión"]
+        },
+        {
+            "id": 4,
+            "pregunta": "¿Eres una persona que planea con antelación las cosas o prefieres lanzarte al mundo a la aventura?",
+            "respuestas": ["P: Estoy abiert@ al mundo y me gusta improvisar", "J: Me gusta tener las situaciones"]
+        }
+    ]
+
+}
